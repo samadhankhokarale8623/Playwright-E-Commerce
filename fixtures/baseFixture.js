@@ -1,5 +1,5 @@
 const { test: base } = require('@playwright/test');
-const LoginPage = require('../Pages/E-Commerce/Login/LoginPage');
+const LoginPage = require('../Pages/Login/LoginPage');
 const users = require('../test-data/users.json');
 
 exports.test = base.extend({
